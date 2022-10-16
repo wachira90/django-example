@@ -1,0 +1,55 @@
+@token = YWRtaW46YWRtaW4=
+
+@user1 = dXNlcjE6YWRtaW4=
+
+@user2 = dXNlcjI6YWRtaW4=
+
+
+### GET customers
+GET http://desktop-mke4sph:8000/customers/2
+Content-Type: application/json
+Authorization: Basic {{token}}
+
+
+### GET products user1:admin/dXNlcjE6YWRtaW4=
+GET http://desktop-mke4sph:8000/products/
+Content-Type: application/json
+Authorization: Basic {{user1}}
+
+### GET products 2 user2:admin/dXNlcjI6YWRtaW4=
+GET http://desktop-mke4sph:8000/products/2
+Content-Type: application/json
+Authorization: Basic {{user2}}
+
+### GET
+GET http://desktop-mke4sph:8000/task/
+Content-Type: application/json
+Authorization: Basic {{token}}
+
+### GET
+GET http://desktop-mke4sph:8000/users/
+Content-Type: application/json
+Authorization: Basic {{token}}
+
+
+### GET user 2
+GET http://desktop-mke4sph:8000/users/2
+Content-Type: application/json
+Authorization: Basic {{token}}
+
+
+### GET place 2
+GET http://desktop-mke4sph:8000/places/2
+Content-Type: application/json
+Authorization: Basic {{token}}
+
+### GET restaurants 2
+GET http://desktop-mke4sph:8000/restaurants/
+Content-Type: application/json
+Authorization: Basic {{token}}
+
+
+### GET waiting 2
+GET http://desktop-mke4sph:8000/waiters/
+Content-Type: application/json
+Authorization: Basic {{token}}
