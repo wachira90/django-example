@@ -22,3 +22,12 @@ cd  django-example/
 
 python manage.py runserver 0.0.0.0:8000
 ````
+
+## version
+````
+(env) C:\appmain>python manage.py version
+3.2.16
+
+(env) C:\appmain>python -V
+Python 3.7.4
+````
